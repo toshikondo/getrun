@@ -7,7 +7,7 @@
   tasks:
     - name: run multiple commands on remote nodes
       ios_command:
-        authorize: yes
+        #authorize: yes
         commands:
           - show run
 
