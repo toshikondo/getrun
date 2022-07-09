@@ -6,7 +6,7 @@
 
   tasks:
     - name: run multiple commands on remote nodes
-      ansible.netcommon.network_cli:
+      ios_command:
         commands:
           - show version
           - show ip int brief
